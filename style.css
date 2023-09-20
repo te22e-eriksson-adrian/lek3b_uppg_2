@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Roboto+Mono&family=Sofia&display=swap');
 body{
     display: flex;
     flex-direction: column;
 }
-
 img{
     max-width: 250px;
     height: 50px;
     border: 3px solid black;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 5px;
     padding-top: 5px;
@@ -19,6 +19,12 @@ img{
 h1{
     flex-direction: row;
     text-align: center;
+}
+.vinter{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Varför fungerar inte placering? */
+    font-family: 'Mountains of Cristmas', Verdana; /* Varför fungerar inte fonten? */
 }
 div{
     border: 3px solid red;
