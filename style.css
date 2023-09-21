@@ -5,6 +5,7 @@ body{
 }
 img{
     max-width: 250px;
+    min-width: 200px;
     height: 50px;
     border: 3px solid black;
     margin-top: 20px;
@@ -23,14 +24,17 @@ h1{
 .vinter{
     display: flex;
     flex-direction: column;
-    align-items: center; /* Varför fungerar inte placering? */
+    margin-top: 150px;
+    align-items: flex-start; /* Varför fungerar inte placering? */
     font-family: 'Mountains of Cristmas', Verdana; /* Varför fungerar inte fonten? */
 }
 div{
     border: 3px solid red;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .top-container{
     background-image: url(./snow_winter_trees.jpg);
@@ -46,4 +50,30 @@ div{
     margin-right: 5px;
     justify-content: space-around;
     height: 100px;
+}
+.mellan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+}
+.vänster{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 18%;
+}
+.main{
+    width: 60%;
+}
+.höger{
+    width: 10%;
+    background-image: url(./christmasTree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidfot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
