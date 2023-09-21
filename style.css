@@ -25,11 +25,11 @@ h1{
     display: flex;
     flex-direction: column;
     margin-top: 150px;
-    align-items: center; /* Varför fungerar inte placering? */
+    align-items: center;
     font-family: 'Mountains of Cristmas', Verdana; /* Varför fungerar inte fonten? */
 }
 div{
-    border: 3px solid red;
+    border: 3px solid #D6001C;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 15px;
@@ -73,7 +73,7 @@ a{
     width: 70%;
     display: flex;
     flex-direction: column;
-    align-items: space-around;
+    gap: 70px;
     font-size: large;
 }
 .höger{
