@@ -25,7 +25,7 @@ h1{
     display: flex;
     flex-direction: column;
     margin-top: 150px;
-    align-items: flex-start; /* Varför fungerar inte placering? */
+    align-items: center; /* Varför fungerar inte placering? */
     font-family: 'Mountains of Cristmas', Verdana; /* Varför fungerar inte fonten? */
 }
 div{
@@ -62,9 +62,19 @@ div{
     flex-direction: column;
     align-items: flex-start;
     width: 18%;
+    gap: 15px;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .main{
-    width: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    font-size: large;
 }
 .höger{
     width: 10%;
